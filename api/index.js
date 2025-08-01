@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 3000;
 // Middleware
 app.use(cors());
 app.use(express.json());
-app.use(express.static('.')); // Serve static files from current directory
+app.use(express.static('..')); // Serve static files from parent directory
 
 // Validate environment variables
 if (!process.env.DATABASE_URL) {
@@ -149,16 +149,16 @@ app.get('/api/health', (req, res) => {
 
 // Serve the main HTML files
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'index.html'));
+    res.sendFile(path.join(__dirname, '..', 'index.html'));
 });
 
 app.get('/blog', (req, res) => {
-    res.sendFile(path.join(__dirname, 'blog.html'));
+    res.sendFile(path.join(__dirname, '..', 'blog.html'));
 });
 
 // Catch-all route for other pages
 app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, 'index.html'));
+    res.sendFile(path.join(__dirname, '..', 'index.html'));
 });
 
 app.listen(PORT, () => {
