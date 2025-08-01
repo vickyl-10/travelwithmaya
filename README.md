@@ -12,4 +12,4 @@ A modern, mobile-friendly travel blog for Nate A's adventures, featuring his upc
 - Neon Database for analytics
 - Font Awesome icons
 
-**Pura vida! ✨** 
+**Pura vida! ✨** # Updated for Vercel deployment
