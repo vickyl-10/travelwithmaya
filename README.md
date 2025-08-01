@@ -1,6 +1,6 @@
-# Travel With Maya - Personal Travel Blog
+# Travel With Nate - Personal Travel Blog
 
-A modern, mobile-friendly travel blog for Maya B's adventures, featuring her upcoming Costa Rica trip.
+A modern, mobile-friendly travel blog for Nate A's adventures, featuring his upcoming Costa Rica trip.
 
 ## Features
 - Responsive design with smooth animations

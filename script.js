@@ -151,7 +151,7 @@ document.addEventListener('DOMContentLoaded', () => {
 function subscribeNewsletter() {
     const email = document.getElementById('newsletter-email')?.value;
     if (email && email.includes('@')) {
-        alert('Thank you for subscribing to Travel With Maya! You\'ll receive updates about new adventures soon.');
+        alert('Thank you for subscribing to Travel With Nate! You\'ll receive updates about new adventures soon.');
         document.getElementById('newsletter-email').value = '';
     } else {
         alert('Please enter a valid email address.');
@@ -270,7 +270,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Console welcome message
 console.log(`
-🌴 Welcome to Travel With Maya! 🌴
+🌴 Welcome to Travel With Nate! 🌴
     
 Thanks for visiting my travel blog! 
 I'm excited to share my adventures with you.
